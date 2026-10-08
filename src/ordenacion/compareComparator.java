@@ -1,10 +1,13 @@
 package ordenacion;
 
+import java.util.Comparator;
 import java.util.List;
 
-public class BubbleSortAlumnos {
+public class compareComparator {
+
+	//jprdl jestem do tylu
 	
-	public static List<Alumno> ordenar (List<Alumno> students){
+public static List<Alumno> ordenar (List<Alumno> students, Comparator compare){
 		
 		boolean changed = false;
 		
@@ -18,6 +21,8 @@ public class BubbleSortAlumnos {
 				}
 			}
 
+			//zmienic
+			
 			if(!changed) {
 				break;
 			}

@@ -14,7 +14,7 @@ public class BubbleSort {
 					int saved = arr[j+1];
 					arr[j+1]=arr[j];
 					arr[j]=saved;
-					changed = true; //n
+					changed = true;
 				}
 			}
 			System.out.println("How many times? " + i);
